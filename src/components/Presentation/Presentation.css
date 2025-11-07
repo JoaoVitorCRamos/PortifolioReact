@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.presentation-section * {
+  font-weight: 700 !important;
+}
+
+.presentation-section {
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.presentation-text p,
+.presentation-text h1,
+.presentation-text h3 {
+  line-height: 1.1; /* Padrão ~1.4 — mais compacto */
+  margin-bottom: 8px; /* reduz espaço entre linhas */
+}
+
+.img-fluid {
+  width: 70%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.function-text {
+  color: #555 !important;
+  font-weight: 600;
+}
+
+.presentation-button {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  font-weight: 600;
+}
+
+.presentation-button:hover {
+  background-color: #888 !important;
+  border-color: #888 !important;
+  transform: translateY(-1px);
+}
+
+/* Ajuste mobile */
+@media (max-width: 768px) {
+  .presentation-text {
+    text-align: center !important;
+  }
+
+  .d-flex.flex-wrap.gap-3.mt-4 {
+    justify-content: center !important;
+  }
+
+  .img-fluid {
+    width: 90%;
+  }
+}
+

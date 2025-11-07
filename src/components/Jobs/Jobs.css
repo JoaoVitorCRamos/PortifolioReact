@@ -1,0 +1,19 @@
+#Jobs {
+  background-color: #f9f9f9;
+}
+
+#Jobs h2 {
+  letter-spacing: 1px;
+}
+
+#Jobs .card {
+  transition: transform 0.3s ease;
+}
+
+#Jobs .card:hover {
+  transform: translateY(-5px);
+}
+
+.text-primary {
+  color:#888888 !important;
+}

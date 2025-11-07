@@ -1,0 +1,21 @@
+.support-text {
+  line-height: 1.6;
+  color: #0e0e0e;
+  text-align: justify;
+}
+
+.first-text {
+  color: #0e0e0e;
+  text-align: justify;
+}
+
+.div-aboutme {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .div-aboutme {
+    max-width: 95%;
+  }
+}
