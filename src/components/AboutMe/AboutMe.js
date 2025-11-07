@@ -6,7 +6,7 @@ export const AboutMe = () => {
       <div className="row align-items-center">
         <div className="col-md-5 text-center mb-4 mb-md-0">
           <img
-            src="https://JoaoVitorCRamos.github.io/PortifolioReact/images/aboutme.jpg"
+            src="images/aboutme.jpg"
             alt="Foto profissional"
             className="img-fluid rounded shadow"
           />
