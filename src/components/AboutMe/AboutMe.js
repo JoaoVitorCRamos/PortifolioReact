@@ -6,7 +6,7 @@ export const AboutMe = () => {
       <div className="row align-items-center">
         <div className="col-md-5 text-center mb-4 mb-md-0">
           <img
-            src="images/aboutme.jpg"
+            src="{process.env.PUBLIC_URL + "/images/aboutme.jpg"}"
             alt="Foto profissional"
             className="img-fluid rounded shadow"
           />
