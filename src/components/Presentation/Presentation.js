@@ -7,7 +7,7 @@ export const Presentation = () => {
         {/* Coluna da imagem */}
         <div className="col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
           <img
-            src={process.env.PUBLIC_URL + "/images/aboutmee.jpg"}
+            src={process.env.PUBLIC_URL + "/images/presentation.jpg"}
             className="img-fluid"
             alt="Foto de apresentação"
           />
