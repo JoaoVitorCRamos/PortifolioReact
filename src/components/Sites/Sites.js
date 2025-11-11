@@ -30,7 +30,7 @@ const SITES = [
     link: "https://joaovitorcramos.github.io/aula1TesteCss/",
   },
   {
-    img: process.env.PUBLIC_URL + "/images/Sites/PokedexSite.png",
+    img: process.env.PUBLIC_URL + "/images/Sites/pokedexSite.png",
     title: "Pokedex",
     tech: "JS e CSS",
     desc: "Desenvolvi uma Pokedex interativa que permite aos usuários buscar Pokémons.",
