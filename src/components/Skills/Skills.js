@@ -1,23 +1,21 @@
 import "./Skills.css";
 
 const Tecnologias = [
-  { src: "/images/Tecnologias/JS.png", alt: "JavaScript" },
-  { src: "/images/Tecnologias/React.png", alt: "React" },
-  { src: "/images/Tecnologias/CSS.png", alt: "CSS" },
-  { src: "/images/Tecnologias/NoSQL.png", alt: "NoSQL" },
-  { src: "/images/Tecnologias/SQL.png", alt: "SQL" },
-  { src: "/images/Tecnologias/Git.png", alt: "Git" },
-  { src: "/images/Tecnologias/Java.png", alt: "Java" },
-  { src: "/images/Tecnologias/C++.png", alt: "C++" },
-  { src: "/images/Tecnologias/C.png", alt: "C" },
-  { src: "/images/Tecnologias/Python.png", alt: "Python" },
-  {
-    src: "/images/Tecnologias/TrabalhoEmEquipe.png",
-    alt: "Trabalho em Equipe",
-  },
-  { src: "/images/Tecnologias/Proatividade.png", alt: "Proatividade" },
-  { src: "/images/Tecnologias/Adaptabilidade.png", alt: "Adaptabilidade" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/JS.png", alt: "JavaScript" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/React.png", alt: "React" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/CSS.png", alt: "CSS" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/NoSQL.png", alt: "NoSQL" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/SQL.png", alt: "SQL" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/Git.png", alt: "Git" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/Java.png", alt: "Java" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/C++.png", alt: "C++" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/C.png", alt: "C" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/Python.png", alt: "Python" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/TrabalhoEmEquipe.png", alt: "Trabalho em Equipe" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/Proatividade.png", alt: "Proatividade" },
+  { src: process.env.PUBLIC_URL + "/images/Tecnologias/Adaptabilidade.png", alt: "Adaptabilidade" },
 ];
+
 
 export const Skills = () => {
   const loopIcons = [...Tecnologias, ...Tecnologias];
