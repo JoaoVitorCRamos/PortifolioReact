@@ -15,14 +15,14 @@ import { Certifications } from "./components/Certifications/Certifications";
 function App() {
   return (
     <div>
-      <NavigationBar /> {/* feito */}
+      <NavigationBar /> 
       <Presentation />
-      <Skills /> {/* feito */}
-      <AboutMe /> {/* feito */}
-      <Sites /> {/* feito */}
-      <Certifications /> {/* feito */}
-      <Jobs /> {/* feito */}
-      <FooterPage /> {/* feito */}
+      <Skills /> 
+      <AboutMe /> 
+      <Sites /> 
+      <Certifications /> 
+      <Jobs /> 
+      <FooterPage /> 
     </div>
   );
 }
